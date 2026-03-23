@@ -15,13 +15,15 @@ def sobre():
 def livros():
     return "Lista de livros cadastrados"
 
+
 @app.route("/cadastro-livro")
 def cadastro_livro():
-    return "Página de cadastro de livros"
+    return "Formulário de cadastro de livros"
 
 @app.route("/autores")
 def autores():
     return "Lista de autores cadastrados"
+
 
 @app.route("/contato")
 def contato():
