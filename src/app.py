@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Sistema de Biblioteca Online"
+    return "Sistema de Gestão de Biblioteca"
 
 @app.route("/sobre")
 def sobre():
@@ -28,7 +28,7 @@ def autores():
 
 @app.route("/contato")
 def contato():
-    return "Página de contato do sistema"
+    return "Página de contato do sistema em Flask"
 
 if __name__ == "__main__":
     app.run(debug=True)
