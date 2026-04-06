@@ -30,7 +30,7 @@ def autores():
 def contato():
     return "Página de contato do sistema em Flask"
 
-print("Oi"
+print("Oi")
 
 if __name__ == "__main__":
     app.run(debug=True)
