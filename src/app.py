@@ -28,7 +28,7 @@ def autores():
 
 @app.route("/contato")
 def contato():
-    return "Página de contato do sistema em Flask"
+    return "Erro" 
 
 
 if __name__ == "__main__":
