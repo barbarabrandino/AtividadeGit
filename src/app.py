@@ -30,7 +30,7 @@ def autores():
 def contato():
     return "Erro" 
 
-def teste(
+
 
 
 if __name__ == "__main__":
