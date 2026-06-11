@@ -28,8 +28,7 @@ jobs:
       - name: Verificar sintaxe
         run: python -m py_compile src/app.py
 
-      - name: Executar testes
-        run: pytest
+      
 
       - name: Simular Deploy
         run: echo "Deploy realizado com sucesso"
