@@ -29,6 +29,8 @@ def autores():
 @app.route("/contato")
 def contato():
     return "Teste de contatos do sistema Flask" 
+    return "Erro" 
+
 
 if __name__ == "__main__":
     app.run(debug=True)
