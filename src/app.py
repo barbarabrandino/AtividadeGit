@@ -28,7 +28,9 @@ def autores():
 
 @app.route("/contato")
 def contato():
-   return "Lista de contatos do sistema"
+    return "Erro" 
+
+def teste(
 
 
 if __name__ == "__main__":
