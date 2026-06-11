@@ -28,6 +28,7 @@ def autores():
 
 @app.route("/contato")
 def contato():
+    return "Teste de contatos do sistema Flask" 
     return "Erro" 
 
 
